@@ -68,4 +68,5 @@ if st.button("Predict Yield"):
     # Step 5: Predict
     # -----------------------------
     predicted_yield = model.predict(input_data)[0]
+
     st.success(f"Predicted Crop Yield: {predicted_yield:.2f} units")
